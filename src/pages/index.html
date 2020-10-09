@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "partials/vitrine.html" %}
+<section class="banner">
+    <div class="container">
+        <div class="row">
+            {% for i in [1,2] -%}
+                {% include "partials/banner.html" %}
+            {%- endfor %}
+        </div>
+    </div>
+</section>
+{% include "partials/vitrine.html" %}
+{% include "partials/newsletter.html" %}
+{% endblock %}

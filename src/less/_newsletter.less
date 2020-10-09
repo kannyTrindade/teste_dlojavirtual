@@ -1,0 +1,123 @@
+.newsletter{
+    position: relative;
+    height: 380px;
+    background-position: top;
+    background-repeat: no-repeat;
+    @media (max-width: 1199.98px) {
+        background-size: 980px auto;
+    }
+    @media (max-width: 991.98px) {
+        background-size: 710px auto;
+        height: 310px;
+    }
+    .title{
+        margin-top: 55px;
+        margin-left: 25px;
+        @media (max-width: 991.98px) {
+            top: 125px;
+            left: 55px;
+        }
+        @media (max-width: 767.98px) {
+            top: 90px;
+            left: 40px;
+        }
+        h1{
+            font-size: 3.125em;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #FFF;
+            @media (max-width: 991.98px) {
+                font-size: 2.5em;
+            }
+            @media (max-width: 767.98px) {
+                font-size: 2em;
+            }
+            small{
+                display: block;
+                font-size: 0.32em;
+                color: #000;
+                @media (max-width: 767.98px) {
+                    font-size: 0.5em;
+                }
+                &:before{
+                    content: '';
+                    display: block;
+                    background: #00aeef;
+                    width: 30px;
+                    height: 2px;
+                    float: left;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+        
+    }
+    form{
+        position: absolute;
+        top: 30px;
+        min-width: 665px;
+        @media (max-width: 991.98px) {
+            min-width: unset;
+            width: 75%;
+            top: 0;
+        }
+        @media (max-width: 767.98px) {
+            
+        }
+        .mail-input{
+            height: 100px;
+            @media (max-width: 991.98px) {
+                height: auto;
+                padding: 30px;
+            }
+            background: #FFF;
+            display: flex;
+            padding-left: 30px;
+            box-shadow: 0px 0px 32px 5px rgba(0, 0, 0, 0.15);
+            @media (max-width: 767.98px) {
+                padding: 15px;
+                left: 20px;
+            }
+            input[type=email]{
+                border: none;
+                width: calc(100% - 97px);
+                outline: none;
+                @media (max-width: 575.98px) {
+                    width: calc(100% - 10px);
+                }
+            }
+            button[type=submit]{
+                background-color: #005261;
+                width: 130px;
+                height: 130px;
+                position: absolute;
+                right: -65px;
+                top: -17px;
+                border-radius: 130px;
+                border: none;
+                outline: none;
+                @media (max-width: 991.98px) {
+                    width: 100px;
+                    height: 100px;
+                    top: -7px;
+                }
+                @media (max-width: 767.98px) {
+                    width: 70px;
+                    height: 70px;
+                    top: -7px;
+                    right: -45px;
+                }
+                img{
+                    transition: 0.1s all linear;
+                }
+                &:hover{
+                    img{
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+        
+    }
+}

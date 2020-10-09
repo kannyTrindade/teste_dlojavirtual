@@ -1,0 +1,16 @@
+.banner {
+  padding: 35px 0;
+}
+.banner a {
+  opacity: 0.95;
+  transition: 0.1s all linear;
+}
+.banner a:hover {
+  opacity: 1;
+}
+.banner a img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=_banner.css.map */

@@ -1,0 +1,78 @@
+.brands {
+  background: #f3f3f3;
+}
+.brands-slider {
+  max-width: 96%;
+  left: 2%;
+}
+.brands-slider .slick-slide {
+  max-width: 90%;
+}
+.brands-slider .slick-slide .brand:focus {
+  outline: none;
+}
+.brands-slider .slick-slide .brand .img {
+  display: flex;
+  height: 160px;
+  text-align: center;
+}
+.brands-slider .slick-slide .brand .img img {
+  margin: auto;
+}
+footer {
+  padding-top: 45px;
+}
+footer address p {
+  margin-bottom: 0;
+}
+footer .phones a {
+  text-decoration: none;
+  display: block;
+  color: #63aeed;
+  font-size: 1.5em;
+}
+footer .phones a small {
+  font-size: 0.5835em;
+  margin-right: 5px;
+}
+footer .phones a img {
+  margin-right: 8px;
+}
+footer h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+}
+footer .nav-footer {
+  padding-left: 0;
+  list-style: none;
+}
+footer .nav-footer li a {
+  font-size: 0.875em;
+  color: #777777;
+  text-transform: uppercase;
+}
+footer .social li {
+  list-style: none;
+  display: inline-block;
+}
+footer .social li a {
+  text-decoration: none;
+}
+footer .payment {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .payment .pay-option {
+  flex: 1 0 25%;
+  margin: 0.5em 0;
+}
+footer .row {
+  margin-bottom: 40px;
+}
+footer .row h2 {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=_footer.css.map */

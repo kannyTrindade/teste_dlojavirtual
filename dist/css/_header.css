@@ -1,0 +1,207 @@
+header {
+  background: rgba(255, 255, 255, 0);
+  background: linear-gradient(180deg, #54c5d0 0%, #54c5d0 67.75%, rgba(255, 255, 255, 0) 67.75%, rgba(255, 255, 255, 0) 100%);
+  color: #FFFFFF;
+}
+@media (max-width: 1199.98px) {
+  header {
+    background: linear-gradient(180deg, #54c5d0 0%, #54c5d0 70%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+@media (max-width: 991.98px) {
+  header {
+    background: linear-gradient(180deg, #54c5d0 0%, #54c5d0 79%, rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+@media (max-width: 575.98px) {
+  header {
+    background: linear-gradient(180deg, #54c5d0 0%, #54c5d0 90%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+header .top .container .row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+header .top a {
+  border-bottom: 1px solid transparent;
+}
+header .top a:hover {
+  color: unset;
+  border-bottom: 1px solid #FFF;
+}
+header .nav-middle .container .row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+header .nav-middle .container .row .navbar-toggler {
+  outline: none;
+}
+header .nav-middle .container .row .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+@media (max-width: 575.98px) {
+  header .nav-middle .container .row {
+    border-bottom: transparent;
+  }
+}
+header .nav-middle .search-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  margin: 15px 0;
+}
+header .nav-middle .search-box input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 0.875em;
+}
+header .nav-middle .search-box button[type=submit] {
+  background: none;
+  border: none;
+  float: right;
+  outline: none;
+  opacity: 0.8;
+}
+header .nav-middle .search-box button[type=submit]:hover {
+  opacity: 1;
+}
+header .nav-middle .phones {
+  font-size: 18px;
+}
+header .nav-middle .phones .title {
+  font-weight: bold;
+  letter-spacing: 0.35em;
+}
+header .nav-middle .phones a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-size: 1.25em;
+  padding-left: 45px;
+  letter-spacing: 1px;
+}
+header .nav-middle .phones a span {
+  border-bottom: 1px solid transparent;
+}
+header .nav-middle .phones a:hover {
+  color: unset;
+}
+header .nav-middle .phones a:hover span {
+  border-bottom: 1px solid #FFF;
+}
+header .nav-middle .phones a .ico {
+  margin-right: 5px;
+}
+@media (max-width: 1199.98px) {
+  header .nav-middle .phones a {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 991.98px) {
+  header .nav-middle .phones a {
+    padding-left: unset;
+  }
+}
+header .nav-middle .cart {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 34px;
+  margin: 0 10px;
+}
+header .nav-middle .cart span {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  background: #ed1c24;
+  padding: 2px;
+  min-width: 18px;
+  height: 18px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 15px;
+  line-height: 1;
+  text-align: center;
+}
+header .menu .row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 12px;
+  padding-top: 10px;
+}
+@media (max-width: 575.98px) {
+  header .menu .row {
+    border-bottom: transparent;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+header .menu .navbar-nav {
+  width: 100%;
+}
+header .menu nav {
+  color: #FFF;
+}
+@media (max-width: 575.98px) {
+  header .menu nav {
+    padding: 0;
+  }
+}
+header .menu nav .nav li {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1 1 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+@media (max-width: 991.98px) {
+  header .menu nav .nav li {
+    border-right: unset;
+    flex: 1 1 25%;
+  }
+}
+header .menu nav .nav li a {
+  margin: auto;
+  height: 92px;
+  padding: 10px;
+  min-width: 100px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: 0.15s all linear;
+}
+@media (max-width: 991.98px) {
+  header .menu nav .nav li a {
+    height: 115px;
+    min-width: 85px;
+  }
+  header .menu nav .nav li a span.desc {
+    height: 50px;
+  }
+}
+header .menu nav .nav li a span.img {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: flex-start;
+  align-self: center;
+}
+header .menu nav .nav li a span.desc {
+  display: flex;
+  margin-top: 16px;
+  flex: 1 0 auto;
+  align-items: center;
+  align-self: center;
+}
+header .menu nav .nav li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  color: #FFF;
+}
+header .menu nav .nav li:last-child {
+  border-right: none;
+}
+
+/*# sourceMappingURL=_header.css.map */

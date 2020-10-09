@@ -1,0 +1,39 @@
+
+<section class="vitrine">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1><small>Produtos em</small>Destaque</h1>
+            </div>
+        </div>
+        <div class="row">
+            {% for j in [1,2] -%}
+                {% for i in [1,2,3,4] -%}
+                    <div class="product col-12 col-sm-6 col-md-4 col-lg-3 text-center">
+                        <a href="#" class="product-thumb">
+                            
+                            <div class="image">
+                                <img src="images/prod{{i}}.png" alt="">
+                                {% if i == 1  and j == 1 %}
+                                    <span class="product-discount">-10%</span>
+                                    <span class="product-new">NOVO!</span>
+                                    <span class="product-offer">Frete Grátis</span>
+                                {% endif %}
+                            </div>
+                            <div class="caption">
+                                <div class="product-name">
+                                    <p>Capa Personalizada para iPhone 7 - Optical Degradê - Husky</p>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price-disc">de R$ 49,99</span>
+                                    <span class="price"><small>por</small> R$ 39,99</span>
+                                </div>
+                                <a class="btn" href="#" role="button">Comprar</a>
+                            </div>
+                        </a>
+                    </div>
+                {%- endfor %}
+            {%- endfor %}
+        </div>
+    </div>
+</section>

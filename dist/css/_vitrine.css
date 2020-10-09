@@ -1,0 +1,112 @@
+.vitrine h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.8em;
+  color: #005261;
+}
+.vitrine h1 small {
+  display: block;
+  font-weight: light;
+  font-size: 30%;
+}
+.vitrine h1 small:before {
+  content: '';
+  display: block;
+  background: #00aeef;
+  width: 30px;
+  height: 2px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.vitrine .product {
+  color: #005261;
+  font-size: 1.25em;
+  padding: 40px 0;
+}
+.vitrine .product-thumb {
+  text-decoration: none;
+}
+.vitrine .product-thumb img {
+  transition: 0.1s all linear;
+}
+.vitrine .product-thumb:hover {
+  color: unset;
+}
+.vitrine .product-thumb:hover img {
+  opacity: 0.85;
+}
+.vitrine .product-thumb .image {
+  position: relative;
+}
+.vitrine .product .product-discount,
+.vitrine .product .product-new,
+.vitrine .product .product-offer {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 13px 8px;
+}
+.vitrine .product .product-discount {
+  background: #ed1c24;
+  font-size: 0.7em;
+  left: 10px;
+  top: 0;
+  font-weight: bold;
+}
+.vitrine .product .product-new {
+  background: #005261;
+  padding: 19px 8px;
+  font-size: 0.6em;
+  right: 10px;
+  bottom: 80px;
+  line-height: 1;
+  font-weight: bold;
+}
+.vitrine .product .product-offer {
+  background: #54c5d0;
+  right: 10px;
+  bottom: 10px;
+  font-size: 0.55em;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.vitrine .product-name {
+  font-weight: bold;
+}
+.vitrine .product-price {
+  display: block;
+  padding: 20px 0;
+}
+.vitrine .product-price .price-disc {
+  display: block;
+  text-decoration-line: line-through;
+}
+.vitrine .product-price .price {
+  font-weight: bold;
+  color: #54c5d0;
+  font-size: 1.5em;
+}
+.vitrine .product-price .price small {
+  font-weight: normal;
+  font-size: 0.5em;
+  text-transform: uppercase;
+}
+.vitrine .product .btn {
+  background-color: #005261;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  min-width: 160px;
+}
+.vitrine .product .btn:hover {
+  background-color: #006a7d;
+}
+
+/*# sourceMappingURL=_vitrine.css.map */

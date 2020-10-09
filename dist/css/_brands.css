@@ -1,0 +1,23 @@
+.brands {
+  background: #f3f3f3;
+}
+.brands-slider {
+  max-width: 96%;
+  left: 2%;
+}
+.brands-slider .slick-slide {
+  max-width: 90%;
+}
+.brands-slider .slick-slide .brand:focus {
+  outline: none;
+}
+.brands-slider .slick-slide .brand .img {
+  display: flex;
+  height: 160px;
+  text-align: center;
+}
+.brands-slider .slick-slide .brand .img img {
+  margin: auto;
+}
+
+/*# sourceMappingURL=_brands.css.map */

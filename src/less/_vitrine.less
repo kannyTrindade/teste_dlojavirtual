@@ -1,0 +1,111 @@
+.vitrine{
+    h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 3.8em;
+        color: #005261;
+        small{
+            display: block;
+            font-weight: light;
+            font-size: 30%;
+            &:before{
+                content: '';
+                display: block;
+                background: #00aeef;
+                width: 30px;
+                height: 2px;
+                float: left;
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .product{
+        color: #005261;
+        font-size: 1.25em;
+        padding: 40px 0;
+        &-thumb{
+            text-decoration: none;
+            img{
+                transition: 0.1s all linear;
+            }
+            &:hover{
+                color: unset;
+                img{
+                    opacity: 0.85;
+                }
+            }
+            .image{
+                position: relative;
+            }
+        }
+        .product-discount, .product-new, .product-offer{
+            display: block;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            text-align: center;
+            color: #FFF;
+            padding: 13px 8px;
+        }
+        .product-discount{
+            background: #ed1c24;
+            font-size: 0.7em;
+            left: 10px;
+            top: 0;
+            font-weight: bold;
+        }
+        .product-new{
+            background: #005261;
+            padding: 19px 8px;
+            font-size: 0.6em;
+            right: 10px;
+            bottom: 80px;
+            line-height: 1;
+            font-weight: bold;
+        }
+        .product-offer{
+            background: #54c5d0;
+            right: 10px;
+            bottom: 10px;
+            font-size: 0.55em;
+            line-height: 1;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        &-name{
+            font-weight: bold;
+        }
+        &-price{
+            display: block;
+            padding: 20px 0;
+            .price-disc{
+                display: block;
+                text-decoration-line: line-through;
+            }
+            .price{
+                font-weight: bold;
+                color: #54c5d0;
+                font-size: 1.5em;
+                small{
+                    font-weight: normal;
+                    font-size: 0.5em;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .btn{
+            background-color: #005261;
+            color: #FFF;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1em;
+            min-width: 160px;
+            &:hover{
+                background-color: #006a7d;
+            }
+        }
+    }
+}
