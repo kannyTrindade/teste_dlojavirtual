@@ -12,6 +12,11 @@ http://simplo7.com.br/desafio-frontend/
 * imagemin
 * browser-sync
 * nunjucks
+* bootstrap vanilla
+* bootstrap (port para less)
+* slick carousel
+* gulp-uglify
+* gulp-sourcemaps
 
 ### Installation
 
